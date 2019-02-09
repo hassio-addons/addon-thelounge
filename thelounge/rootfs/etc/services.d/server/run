@@ -1,0 +1,22 @@
+#!/bin/bash
+# ==============================================================================
+# Community Hass.io Add-ons: The Lounge
+# Runs The Lounge
+# ==============================================================================
+# shellcheck disable=SC1091
+source /usr/lib/hassio-addons/base.sh
+
+export THELOUNGE_HOME=/data/thelounge
+
+hass.log.info "Starting The Lounge server.."
+
+exec /usr/local/bin/thelounge start \
+    -c port=15100 \
+    -c https.enable="$(hass.config.get 'ssl')" \
+    -c https.ca="/ssl/$(hass.config.get 'certfile')" \
+    -c https.certificate="/ssl/$(hass.config.get 'certfile')" \
+    -c https.key="/ssl/$(hass.config.get 'keyfile')" \
+    -c fileUpload=true \
+    -c prefetch=true \
+    -c prefetchStorage=true \
+    -c theme="$(hass.config.get 'default_theme')"

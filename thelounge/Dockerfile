@@ -1,0 +1,42 @@
+ARG BUILD_FROM=hassioaddons/base:2.3.1
+# hadolint ignore=DL3006
+FROM ${BUILD_FROM}
+
+# Install packages
+# hadolint ignore=DL3003
+RUN \
+    apk add --no-cache \
+        nodejs-current=9.11.1-r2 \
+        yarn=1.7.0-r0 \
+    \
+    && yarn global add thelounge@3.0.0 \
+    \
+    && yarn cache clean \
+    && rm -fr /tmp/*
+
+# Copy root filesystem
+COPY rootfs /
+
+# Build arguments
+ARG BUILD_ARCH
+ARG BUILD_DATE
+ARG BUILD_REF
+ARG BUILD_VERSION
+
+# Labels
+LABEL \
+    io.hass.name="The Lounge" \
+    io.hass.description="A self-hosted web IRC client" \
+    io.hass.arch="${BUILD_ARCH}" \
+    io.hass.type="addon" \
+    io.hass.version=${BUILD_VERSION} \
+    maintainer="Timmo <contact@timmo.xyz>" \
+    org.label-schema.description="A self-hosted web IRC client" \
+    org.label-schema.build-date=${BUILD_DATE} \
+    org.label-schema.name="The Lounge" \
+    org.label-schema.schema-version="1.0" \
+    org.label-schema.url="https://community.home-assistant.io/?u=timmo001" \
+    org.label-schema.usage="https://github.com/hassio-addons/addon-thelounge/tree/master/README.md" \
+    org.label-schema.vcs-ref=${BUILD_REF} \
+    org.label-schema.vcs-url="https://github.com/hassio-addons/addon-thelounge" \
+    org.label-schema.vendor="Community Hass.io Add-ons"
