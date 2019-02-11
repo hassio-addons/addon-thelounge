@@ -9,7 +9,7 @@ RUN \
         nodejs-current=9.11.1-r2 \
         yarn=1.7.0-r0 \
     \
-    && yarn global add thelounge@3.0.0 \
+    && yarn global add thelounge@3.0.1 \
     \
     && yarn cache clean \
     && rm -fr /tmp/*
