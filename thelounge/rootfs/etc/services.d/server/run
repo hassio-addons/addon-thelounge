@@ -1,7 +1,7 @@
 #!/bin/bash
 # ==============================================================================
 # Community Hass.io Add-ons: The Lounge
-# Runs The Lounge
+# Runs The Lounge server
 # ==============================================================================
 # shellcheck disable=SC1091
 source /usr/lib/hassio-addons/base.sh

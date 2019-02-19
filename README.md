@@ -17,9 +17,9 @@ A self-hosted web IRC client.
 
 ## About
 
-A self-hosted web IRC client. Uses a modern and sleek interface with support
- for theming, push notifications, link previews, file uploads and more.
- Fully cross-platform and mobile friendly.
+A self-hosted web IRC client that uses a modern and sleek interface with
+ support for theming, push notifications, link previews, file uploads and
+ more. Fully cross-platform and mobile friendly.
 
 ![Screenshot][screenshot]
 
@@ -108,6 +108,8 @@ The private key file to use for SSL.
 
 The default theme for each user. The pre-installed themes are `default` and
  `morning`. You can add more using the next option.
+
+**Note**: _The theme can still be changed in the settings of the app_
 
 ### Option: `themes`
 
