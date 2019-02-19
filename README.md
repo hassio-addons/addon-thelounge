@@ -221,6 +221,7 @@ SOFTWARE.
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
 [microbadger]: https://microbadger.com/images/hassioaddons/thelounge
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
+[pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/matrix.svg
 [reddit]: https://reddit.com/r/homeassistant
 [releases-shield]: https://img.shields.io/github/release/hassio-addons/addon-thelounge.svg
 [releases]: https://github.com/hassio-addons/addon-thelounge/releases
