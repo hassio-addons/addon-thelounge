@@ -15,6 +15,6 @@ if ! hass.directory_exists "/data/thelounge"; then
 else
     for theme in $(hass.config.get "themes")
     do
-        /usr/local/bin/thelounge install "$theme"
+        /usr/local/bin/thelounge install "${theme}"
     done
 fi
