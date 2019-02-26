@@ -5,13 +5,25 @@ FROM ${BUILD_FROM}
 # Install packages
 # hadolint ignore=DL3003
 RUN \
-    apk add --no-cache \
-        nodejs-current=9.11.1-r2 \
+    apk add --no-cache --virtual .build-dependencies \
         yarn=1.7.0-r0 \
     \
-    && yarn global add thelounge@3.0.1 \
+    && apk add --no-cache \
+        nodejs-current=9.11.1-r2 \
     \
+    && yarn global add \
+        modclean \
+        thelounge@3.0.1 \
+    \
+    && modclean \
+        --path /usr/local/share/.config/yarn/global \
+        --no-progress \
+        --keep-empty \
+        --run \
+    \
+    && yarn global remove modclean \
     && yarn cache clean \
+    && apk del --purge .build-dependencies \
     && rm -fr /tmp/*
 
 # Copy root filesystem
