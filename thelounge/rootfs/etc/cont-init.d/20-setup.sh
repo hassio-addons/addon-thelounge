@@ -12,6 +12,6 @@ if ! bashio::fs.directory_exists "/data/thelounge"; then
 else
     for theme in $(bashio::config "themes")
     do
-        /usr/local/bin/thelounge install "$theme"
+        /usr/local/bin/thelounge install "${theme}"
     done
 fi

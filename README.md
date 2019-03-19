@@ -18,8 +18,8 @@ A self-hosted web IRC client.
 ## About
 
 A self-hosted web IRC client that uses a modern and sleek interface with
- support for theming, push notifications, link previews, file uploads and
- more. Fully cross-platform and mobile friendly.
+support for theming, push notifications, link previews, file uploads and
+more. Fully cross-platform and mobile friendly.
 
 ![Screenshot][screenshot]
 
