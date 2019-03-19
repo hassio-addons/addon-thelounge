@@ -1,4 +1,4 @@
-ARG BUILD_FROM=hassioaddons/base:2.3.1
+ARG BUILD_FROM=hassioaddons/base:3.0.0
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -6,8 +6,8 @@ FROM ${BUILD_FROM}
 # hadolint ignore=DL3003
 RUN \
     apk add --no-cache \
-        nodejs-current=9.11.1-r2 \
-        yarn=1.7.0-r0 \
+        nodejs-current=11.3.0-r0 \
+        yarn=1.12.3-r0 \
     \
     && yarn global add thelounge@3.0.1 \
     \
