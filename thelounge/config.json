@@ -24,6 +24,9 @@
   "ports": {
     "15100/tcp": 15100
   },
+  "ports_description": {
+    "15100/tcp": "The Lounge Web UI"
+  },
   "map": [
     "config:rw",
     "ssl"
