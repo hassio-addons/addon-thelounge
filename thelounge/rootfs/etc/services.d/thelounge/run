@@ -9,10 +9,6 @@ bashio::log.info "Starting The Lounge server.."
 
 exec /usr/local/bin/thelounge start \
     -c fileUpload=true \
-    -c https.ca="/ssl/$(bashio::config 'certfile')" \
-    -c https.certificate="/ssl/$(bashio::config 'certfile')" \
-    -c https.enable="$(bashio::config 'ssl')" \
-    -c https.key="/ssl/$(bashio::config 'keyfile')" \
     -c port=15100 \
     -c prefetch=true \
     -c prefetchStorage=true \

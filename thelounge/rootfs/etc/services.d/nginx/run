@@ -3,17 +3,10 @@
 # Community Hass.io Add-ons: The Lounge
 # Runs the Nginx daemon
 # ==============================================================================
-declare -a options
 
-bashio::log.info "Starting Nginx..."
+# Wait for thelounge to become available
+bashio::net.wait_for 15100
 
-# Enable Hassio Ingress
-export ENABLE_HASSIO_INGRESS=true
+bashio::log.info "Starting NGinx..."
 
-options+=(-g "daemon off;")
-
-if bashio::config.true 'ssl'; then
-    options+=(-c /etc/nginx/nginx-ssl.conf)
-fi
-
-exec nginx "${options[@]}"
+exec nginx
