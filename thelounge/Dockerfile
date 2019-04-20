@@ -13,7 +13,7 @@ RUN \
         nodejs-current=11.3.0-r0 \
     \
     && yarn global add \
-        modclean \
+        modclean@3.0.0-beta.1 \
         thelounge@3.0.1 \
     \
     && modclean \
