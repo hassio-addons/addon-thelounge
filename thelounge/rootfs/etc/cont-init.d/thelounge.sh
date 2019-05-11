@@ -14,7 +14,7 @@ if ! bashio::fs.directory_exists "/config/thelounge/users"; then
     mkdir -p /config/thelounge/users
     ln -sf /config/thelounge/users /data/thelounge/users
     bashio::log.info "Creating default hassio user.."
-    cp /etc/thelounge/users/hassio.json /data/thelounge/users
+    cp /etc/thelounge/users/hassio.json /config/thelounge/users
 else
     for theme in $(bashio::config "themes")
     do
