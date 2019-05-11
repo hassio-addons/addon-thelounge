@@ -9,7 +9,7 @@ RUN \
         yarn=1.12.3-r0 \
     \
     && apk add --no-cache \
-        nginx=1.14.2-r0	\
+        nginx=1.14.2-r1	\
         nodejs-current=11.3.0-r0 \
     \
     && yarn global add \
@@ -39,12 +39,12 @@ ARG BUILD_VERSION
 # Labels
 LABEL \
     io.hass.name="The Lounge" \
-    io.hass.description="A self-hosted web IRC client" \
+    io.hass.description="A self-hosted web IRC client." \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
     maintainer="Timmo <contact@timmo.xyz>" \
-    org.label-schema.description="A self-hosted web IRC client" \
+    org.label-schema.description="A self-hosted web IRC client." \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="The Lounge" \
     org.label-schema.schema-version="1.0" \
