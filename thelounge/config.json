@@ -38,7 +38,8 @@
     "default_theme": "default",
     "themes": [
       "thelounge-theme-material"
-    ]
+    ],
+    "users": []
   },
   "schema": {
     "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
@@ -47,6 +48,9 @@
     "keyfile": "str",
     "default_theme": "str",
     "themes": [
+      "str"
+    ],
+    "users": [
       "str"
     ]
   }
