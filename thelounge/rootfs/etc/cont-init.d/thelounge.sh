@@ -5,6 +5,9 @@
 # ==============================================================================
 export THELOUNGE_HOME=/data/thelounge
 
+# Require a user
+bashio::config.require "users"
+
 if ! bashio::fs.directory_exists "/data/thelounge"; then
     mkdir -p /data/thelounge/users
 fi
