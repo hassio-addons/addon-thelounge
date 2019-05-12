@@ -3,7 +3,7 @@
 # Community Hass.io Add-ons: The Lounge
 # Runs The Lounge server
 # ==============================================================================
-export THELOUNGE_HOME=/config/thelounge
+export THELOUNGE_HOME=/data/thelounge
 
 bashio::log.info "Starting The Lounge server.."
 
