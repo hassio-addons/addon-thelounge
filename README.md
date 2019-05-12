@@ -40,8 +40,6 @@ comparison to installing any other Hass.io add-on.
 1. Start the "The Lounge" add-on.
 1. Check the logs of the "The Lounge" add-on to see it in action.
 1. Click "Open Web UI".
-1. Log in with the default user hassio / hassio. **Change this as soon as you
- are logged in! This can be found in the app inside settings.**
 
 **NOTE**: Do not add this repository to Hass.io, please use:
 `https://github.com/hassio-addons/repository`.
@@ -61,6 +59,9 @@ Example add-on configuration:
     "default_theme": "default",
     "themes": [
       "thelounge-theme-material"
+    ],
+    "users": [
+      "hassio"
     ]
 }
 ```
@@ -112,7 +113,10 @@ The default theme for each user. The pre-installed themes are `default` and
 A list of themes to install which can be found in the [npm registry][themes].
  Use the name of the package. (refer to the example above)
 
-**Note**: _Themes will only be added after the first run of the add-on_
+### Option: `users`
+
+A list of users to setup. At first, these will use the default password
+ `hassio`. **Make sure you change your password as soon as you login!**
 
 ## Changelog & Releases
 
