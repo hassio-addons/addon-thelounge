@@ -6,7 +6,7 @@ FROM ${BUILD_FROM}
 # hadolint ignore=DL3003
 RUN \
     apk add --no-cache --virtual .build-dependencies \
-        yarn=1.12.3-r0 \
+        yarn=1.16.0-r0 \
     \
     && apk add --no-cache \
         nginx=1.16.0-r2	\
