@@ -8,7 +8,7 @@
 ![Supports armv7 Architecture][armv7-shield]
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
-![Supports i386 Architecture][i386-shield]****
+![Supports i386 Architecture][i386-shield]
 
 [![GitLab CI][gitlabci-shield]][gitlabci]
 ![Project Maintenance][maintenance-shield]
@@ -220,7 +220,7 @@ SOFTWARE.
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-thelounge.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
 [microbadger]: https://microbadger.com/images/hassioaddons/thelounge
-[project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
+[project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [reddit]: https://reddit.com/r/homeassistant
 [releases-shield]: https://img.shields.io/github/release/hassio-addons/addon-thelounge.svg
 [releases]: https://github.com/hassio-addons/addon-thelounge/releases
