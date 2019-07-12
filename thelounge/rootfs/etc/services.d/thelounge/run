@@ -8,7 +8,7 @@ export THELOUNGE_HOME=/data/thelounge
 bashio::log.info "Starting The Lounge server.."
 
 exec /usr/local/bin/thelounge start \
-    -c fileUpload=true \
+    -c fileUpload.enable=true \
     -c port=15100 \
     -c prefetch=true \
     -c prefetchStorage=true \
