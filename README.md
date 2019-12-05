@@ -34,15 +34,11 @@ more. Fully cross-platform and mobile friendly.
 The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Hass.io add-on.
 
-1. [Add our Hass.io add-ons repository][repository] to your Hass.io instance.
-1. Install the "The Lounge" add-on.
+1. Search for the "The Lounge" add-on in the Hass.io add-on store and install it.
 1. Configure the "The Lounge" add-on. (See below)
 1. Start the "The Lounge" add-on.
 1. Check the logs of the "The Lounge" add-on to see it in action.
 1. Click "Open Web UI".
-
-**NOTE**: Do not add this repository to Hass.io, please use:
-`https://github.com/hassio-addons/repository`.
 
 ## Configuration
 
