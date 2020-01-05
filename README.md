@@ -171,7 +171,7 @@ our [GitHub Repository][repository].
 
 MIT License
 
-Copyright (c) 2019 Timmo
+Copyright (c) 2019-2020 Timmo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -214,7 +214,7 @@ SOFTWARE.
 [issue]: https://github.com/hassio-addons/addon-thelounge/issues
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-thelounge.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
 [microbadger]: https://microbadger.com/images/hassioaddons/thelounge
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [reddit]: https://reddit.com/r/homeassistant
