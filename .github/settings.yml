@@ -1,7 +1,7 @@
 ---
 repository:
-  description: "The Lounge - Community Hass.io Add-on for Home Assistant"
-  topics: thelounge, irc-client, irc, hassio, hassio-addons, hass, javascript
+  description: "The Lounge - Home Assistant Community Add-ons"
+  topics: thelounge, irc-client, irc, addon, addons, homeassistant, home-assistant
   homepage: https://addons.community
   private: false
   has_issues: true

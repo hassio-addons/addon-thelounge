@@ -1,6 +1,6 @@
 #!/usr/bin/with-contenv bashio
 # ==============================================================================
-# Community Hass.io Add-ons: The Lounge
+# Home Assistant Community Add-on: The Lounge
 # Configures NGINX for use with thelounge
 # ==============================================================================
 declare port

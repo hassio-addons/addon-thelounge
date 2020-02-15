@@ -1,6 +1,6 @@
 #!/usr/bin/with-contenv bashio
 # ==============================================================================
-# Community Hass.io Add-ons: The Lounge
+# Home Assistant Community Add-on: The Lounge
 # This adds the default user and installs any requested themes
 # ==============================================================================
 declare users

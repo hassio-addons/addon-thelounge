@@ -1,6 +1,6 @@
 #!/usr/bin/with-contenv bashio
 # ==============================================================================
-# Community Hass.io Add-ons: The Lounge
+# Home Assistant Community Add-on: The Lounge
 # Runs the Nginx daemon
 # ==============================================================================
 
