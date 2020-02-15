@@ -10,7 +10,7 @@ RUN \
     \
     && apk add --no-cache \
         nginx=1.16.1-r4	\
-        nodejs=12.14.0-r0 \
+        nodejs=12.15.0-r1 \
     \
     && yarn global add \
         modclean@3.0.0-beta.1 \
