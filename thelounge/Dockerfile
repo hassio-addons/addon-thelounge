@@ -9,7 +9,7 @@ RUN \
         yarn=1.22.4-r0 \
     \
     && apk add --no-cache \
-        nginx=1.16.1-r6	\
+        nginx=1.18.0-r0	\
         nodejs=12.18.3-r0 \
     \
     && yarn global add \
