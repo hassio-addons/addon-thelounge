@@ -6,6 +6,9 @@ FROM ${BUILD_FROM}
 # hadolint ignore=DL3003
 RUN \
     apk add --no-cache --virtual .build-dependencies \
+        g++=9.3.0-r2 \
+        make=4.3-r0 \
+        python2=2.7.18-r0 \
         yarn=1.22.4-r0 \
     \
     && apk add --no-cache \
