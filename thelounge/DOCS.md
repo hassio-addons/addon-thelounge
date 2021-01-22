@@ -44,7 +44,7 @@ dealing with an unknown issue. Possible values are:
 - `debug`: Shows detailed debug information.
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
-- `error`:  Runtime errors that do not require immediate action.
+- `error`: Runtime errors that do not require immediate action.
 - `fatal`: Something went terribly wrong. Add-on becomes unusable.
 
 Please note that each level automatically includes log messages from a
@@ -72,19 +72,19 @@ The private key file to use for SSL.
 ### Option: `default_theme`
 
 The default theme for each user. The pre-installed themes are `default` and
- `morning`. You can add more using the next option.
+`morning`. You can add more using the next option.
 
 **Note**: _The theme can still be changed in the settings of the app_
 
 ### Option: `themes`
 
 A list of themes to install which can be found in the [npm registry][themes].
- Use the name of the package. (refer to the example above)
+Use the name of the package. (refer to the example above)
 
 ### Option: `users`
 
 A list of users to setup. At first, these will use the default password
- `hassio`. **Make sure you change your password as soon as you login!**
+`hassio`. **Make sure you change your password as soon as you login!**
 
 ## Changelog & Releases
 
@@ -93,12 +93,12 @@ functionality. The format of the log is based on
 [Keep a Changelog][keepchangelog].
 
 Releases are based on [Semantic Versioning][semver], and use the format
-of ``MAJOR.MINOR.PATCH``. In a nutshell, the version will be incremented
+of `MAJOR.MINOR.PATCH`. In a nutshell, the version will be incremented
 based on the following:
 
-- ``MAJOR``: Incompatible or major changes.
-- ``MINOR``: Backwards-compatible new features and enhancements.
-- ``PATCH``: Backwards-compatible bugfixes and package updates.
+- `MAJOR`: Incompatible or major changes.
+- `MINOR`: Backwards-compatible new features and enhancements.
+- `PATCH`: Backwards-compatible bugfixes and package updates.
 
 ## Support
 

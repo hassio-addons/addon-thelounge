@@ -1,8 +1,8 @@
 {
-	"password": "$2a$11$yq4ZxpU9QYlVvqGPX86KauLBPJVcJUlhSBFyCAzQ8XAguTmsv/Nr2",
-	"log": true,
-	"awayMessage": "",
-	"networks": [],
-	"sessions": {},
-	"clientSettings": {}
+  "password": "$2a$11$yq4ZxpU9QYlVvqGPX86KauLBPJVcJUlhSBFyCAzQ8XAguTmsv/Nr2",
+  "log": true,
+  "awayMessage": "",
+  "networks": [],
+  "sessions": {},
+  "clientSettings": {}
 }
