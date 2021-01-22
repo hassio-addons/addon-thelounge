@@ -89,8 +89,7 @@ A list of users to setup. At first, these will use the default password
 ## Changelog & Releases
 
 This repository keeps a change log using [GitHub's releases][releases]
-functionality. The format of the log is based on
-[Keep a Changelog][keepchangelog].
+functionality.
 
 Releases are based on [Semantic Versioning][semver], and use the format
 of `MAJOR.MINOR.PATCH`. In a nutshell, the version will be incremented
@@ -151,7 +150,6 @@ SOFTWARE.
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/?u=timmo001
 [issue]: https://github.com/hassio-addons/addon-thelounge/issues
-[keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-thelounge/releases
 [semver]: http://semver.org/spec/v2.0.0.htm
