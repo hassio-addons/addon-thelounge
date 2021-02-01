@@ -1,4 +1,4 @@
-ARG BUILD_FROM=hassioaddons/base:8.0.1
+ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:9.1.2
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -6,11 +6,11 @@ FROM ${BUILD_FROM}
 # hadolint ignore=DL3003
 RUN \
     apk add --no-cache --virtual .build-dependencies \
-        yarn=1.22.4-r0 \
+        yarn=1.22.10-r0 \
     \
     && apk add --no-cache \
-        nginx=1.18.0-r0	\
-        nodejs=12.18.3-r0 \
+        nginx=1.18.0-r13	\
+        nodejs=14.15.4-r0 \
     \
     && yarn global add \
         modclean@3.0.0-beta.1 \
