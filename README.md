@@ -10,7 +10,7 @@
 ![Supports amd64 Architecture][amd64-shield]
 ![Supports i386 Architecture][i386-shield]
 
-[![GitLab CI][gitlabci-shield]][gitlabci]
+[![Github Actions][github-actions-shield]][github-actions]
 ![Project Maintenance][maintenance-shield]
 [![GitHub Activity][commits-shield]][commits]
 
@@ -74,7 +74,7 @@ our [GitHub Repository][repository].
 
 MIT License
 
-Copyright (c) 2019-2020 Timmo
+Copyright (c) 2019-2021 Timmo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -101,24 +101,24 @@ SOFTWARE.
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/timmo
 [commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/addon-thelounge.svg
-[commits]: https://github.com/hassio-addons/addon-thelounge/commits/master
+[commits]: https://github.com/hassio-addons/addon-thelounge/commits/main
 [contributors]: https://github.com/hassio-addons/addon-thelounge/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-thelounge/blob/master/thelounge/DOCS.md
+[docs]: https://github.com/hassio-addons/addon-thelounge/blob/main/thelounge/DOCS.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/?u=timmo001
-[gitlabci-shield]: https://gitlab.com/hassio-addons/addon-thelounge/badges/master/pipeline.svg
-[gitlabci]: https://gitlab.com/hassio-addons/addon-thelounge/pipelines
+[github-actions-shield]: https://github.com/hassio-addons/addon-thelounge/workflows/CI/badge.svg
+[github-actions]: https://github.com/hassio-addons/addon-thelounge/actions
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [issue]: https://github.com/hassio-addons/addon-thelounge/issues
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-thelounge.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [reddit]: https://reddit.com/r/homeassistant
 [releases-shield]: https://img.shields.io/github/release/hassio-addons/addon-thelounge.svg
 [releases]: https://github.com/hassio-addons/addon-thelounge/releases
 [repository]: https://github.com/hassio-addons/repository
-[screenshot]: https://raw.githubusercontent.com/hassio-addons/addon-thelounge/master/images/screenshot.png
+[screenshot]: https://raw.githubusercontent.com/hassio-addons/addon-thelounge/main/images/screenshot.png
 [timmo]: https://github.com/timmo001
