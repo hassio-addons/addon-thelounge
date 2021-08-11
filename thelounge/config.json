@@ -20,7 +20,7 @@
     "certfile": "fullchain.pem",
     "keyfile": "privkey.pem",
     "default_theme": "default",
-    "themes": ["thelounge-theme-material"],
+    "themes": ["thelounge-theme-solarized"],
     "users": []
   },
   "schema": {
