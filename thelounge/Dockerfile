@@ -17,7 +17,7 @@ RUN \
     \
     && yarn global add \
         modclean@3.0.0-beta.1 \
-        thelounge@4.2.0 \
+        thelounge@4.3.0 \
     \
     && modclean \
         --path /usr/local/share/.config/yarn/global \
