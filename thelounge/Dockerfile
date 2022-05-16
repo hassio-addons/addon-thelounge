@@ -7,6 +7,7 @@ FROM ${BUILD_FROM}
 RUN \
     apk add --no-cache --virtual .build-dependencies \
         g++=10.3.1_git20211027-r0 \
+        git=2.34.2-r0 \
         make=4.3-r0 \
         python2=2.7.18-r4 \
         yarn=1.22.17-r0 \
