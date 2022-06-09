@@ -6,15 +6,16 @@ FROM ${BUILD_FROM}
 # hadolint ignore=DL3003
 RUN \
     apk add --no-cache --virtual .build-dependencies \
-        g++=10.3.1_git20211027-r0 \
-        git=2.34.2-r0 \
+        g++=11.2.1_git20220219-r2 \
+        git=2.36.1-r0 \
         make=4.3-r0 \
-        python2=2.7.18-r4 \
-        yarn=1.22.17-r0 \
+        python3=3.10.4-r0 \
+        yarn=1.22.19-r0 \
     \
     && apk add --no-cache \
-        nginx=1.20.2-r1 \
-        nodejs=16.14.2-r0 \
+        icu-data-full=71.1-r2 \
+        nginx=1.22.0-r0 \
+        nodejs=16.15.0-r1 \
     \
     && yarn global add \
         modclean@3.0.0-beta.1 \
