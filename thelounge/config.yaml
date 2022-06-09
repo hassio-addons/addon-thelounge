@@ -13,6 +13,7 @@ arch:
   - i386
 ingress: true
 ingress_stream: true
+init: false
 panel_icon: mdi:chat
 ports:
   80/tcp: null
