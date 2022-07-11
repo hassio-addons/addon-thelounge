@@ -12,6 +12,8 @@ RUN \
         python3=3.10.4-r0 \
         yarn=1.22.19-r0 \
     \
+    && ln -s /usr/bin/python3 /usr/bin/python \
+    \
     && apk add --no-cache \
         icu-data-full=71.1-r2 \
         nginx=1.22.0-r1 \
