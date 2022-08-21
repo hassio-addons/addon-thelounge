@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base:12.2.1
+ARG BUILD_FROM=ghcr.io/hassio-addons/base:12.2.3
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -9,7 +9,7 @@ RUN \
         g++=11.2.1_git20220219-r2 \
         git=2.36.2-r0 \
         make=4.3-r0 \
-        python3=3.10.4-r0 \
+        python3=3.10.5-r0 \
         yarn=1.22.19-r0 \
     \
     && ln -s /usr/bin/python3 /usr/bin/python \
