@@ -10,7 +10,7 @@ RUN \
         g++=12.2.1_git20220924-r4 \
         git=2.38.4-r1 \
         make=4.3-r1 \
-        python3=3.10.9-r1 \
+        python3=3.10.10-r0 \
         yarn=1.22.19-r0 \
     \
     && apk add --no-cache \
