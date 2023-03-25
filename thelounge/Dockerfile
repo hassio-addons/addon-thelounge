@@ -3,6 +3,7 @@ ARG BUILD_FROM=ghcr.io/hassio-addons/base:13.1.1
 FROM ${BUILD_FROM}
 
 # Install packages
+ARG THE_LOUNGE_VERSION="v4.3.1"
 # hadolint ignore=DL3003
 RUN \
     apk add --no-cache --virtual .build-dependencies \
@@ -19,7 +20,7 @@ RUN \
     \
     && yarn global add \
         modclean@3.0.0-beta.1 \
-        thelounge@4.3.1 \
+        "thelounge@${THE_LOUNGE_VERSION#v}" \
     \
     && modclean \
         --path /usr/local/share/.config/yarn/global \
