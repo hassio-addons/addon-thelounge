@@ -16,7 +16,7 @@ RUN \
     && apk add --no-cache \
         icu-data-full=72.1-r1 \
         nginx=1.22.1-r0 \
-        nodejs=18.14.2-r0 \
+        nodejs=18.16.0-r0 \
     \
     && yarn global add \
         modclean@3.0.0-beta.1 \
