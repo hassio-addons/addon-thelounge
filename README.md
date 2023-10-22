@@ -96,7 +96,7 @@ SOFTWARE.
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/timmo
@@ -111,7 +111,7 @@ SOFTWARE.
 [forum]: https://community.home-assistant.io/?u=timmo001
 [github-actions-shield]: https://github.com/hassio-addons/addon-thelounge/workflows/CI/badge.svg
 [github-actions]: https://github.com/hassio-addons/addon-thelounge/actions
-[i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [issue]: https://github.com/hassio-addons/addon-thelounge/issues
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-thelounge.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
