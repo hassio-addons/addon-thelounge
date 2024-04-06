@@ -3,7 +3,7 @@ ARG BUILD_FROM=ghcr.io/hassio-addons/base-nodejs:0.2.0
 FROM ${BUILD_FROM}
 
 # Install packages
-ARG THE_LOUNGE_VERSION="v4.4.1"
+ARG THE_LOUNGE_VERSION="v4.4.3"
 # hadolint ignore=DL3003
 RUN \
     apk add --no-cache --virtual .build-dependencies \
