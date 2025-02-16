@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base-nodejs:0.2.5
+ARG BUILD_FROM=ghcr.io/hassio-addons/base:17.2.1
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -7,14 +7,16 @@ ARG THE_LOUNGE_VERSION="v4.4.3"
 # hadolint ignore=DL3003
 RUN \
     apk add --no-cache --virtual .build-dependencies \
-        g++=13.2.1_git20231014-r0 \
-        git=2.43.6-r0 \
+        g++=14.2.0-r4 \
+        git=2.47.2-r0 \
         make=4.4.1-r2 \
-        python3=3.11.11-r0 \
+        python3=3.12.9-r0 \
     \
     && apk add --no-cache \
-        icu-data-full=74.1-r0 \
-        nginx=1.24.0-r16 \
+        icu-data-full=74.2-r0 \
+        nginx=1.26.2-r4 \
+        nodejs=22.13.1-r0 \
+        yarn=1.22.22-r1 \
     \
     && yarn global add \
         modclean@3.0.0-beta.1 \
