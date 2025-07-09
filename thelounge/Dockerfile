@@ -8,7 +8,7 @@ ARG THE_LOUNGE_VERSION="v4.4.3"
 RUN \
     apk add --no-cache --virtual .build-dependencies \
         g++=14.2.0-r6 \
-        git=2.49.0-r0 \
+        git=2.49.1-r0 \
         make=4.4.1-r3 \
         python3=3.12.11-r0 \
     \
